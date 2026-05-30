@@ -3,9 +3,9 @@ from typing import List, Dict
 
 # Upgraded to track latency in real-time to match presentation deck
 agents = [
-    {"id": "agent1", "url": "http://agent1:8001", "connections": 0, "healthy": True, "latency": 0.05},
-    {"id": "agent2", "url": "http://agent2:8002", "connections": 0, "healthy": True, "latency": 0.05},
-    {"id": "agent3", "url": "http://agent3:8003", "connections": 0, "healthy": True, "latency": 0.05},
+    {"id": "agent1", "url": "http://agent1:8000", "connections": 0, "healthy": True, "latency": 0.05},
+    {"id": "agent2", "url": "http://agent2:8000", "connections": 0, "healthy": True, "latency": 0.05},
+    {"id": "agent3", "url": "http://agent3:8000", "connections": 0, "healthy": True, "latency": 0.05},
 ]
 
 current_index = 0
